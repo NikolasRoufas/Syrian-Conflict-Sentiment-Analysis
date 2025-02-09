@@ -26,3 +26,8 @@ To run the notebook locally, make sure you have the following libraries installe
 
 ```bash
 pip install pandas numpy matplotlib seaborn vaderSentiment stanfordnlp
+
+```
+## Data Scraping
+
+The data for this analysis was collected using a custom Reddit API scraping tool, available in the repository [apireddit](https://github.com/NikolasRoufas/apireddit). This tool allows easy scraping of social media data, which was essential for gathering the posts related to the Syrian conflict used in this sentiment analysis.
